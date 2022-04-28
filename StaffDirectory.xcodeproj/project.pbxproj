@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CA7D395D281AFC5A0062DAE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D395C281AFC5A0062DAE8 /* AppDelegate.swift */; };
 		CA7D395F281AFC5A0062DAE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D395E281AFC5A0062DAE8 /* SceneDelegate.swift */; };
-		CA7D3961281AFC5A0062DAE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D3960281AFC5A0062DAE8 /* ViewController.swift */; };
 		CA7D3964281AFC5A0062DAE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7D3962281AFC5A0062DAE8 /* Main.storyboard */; };
 		CA7D3966281AFC5D0062DAE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7D3965281AFC5D0062DAE8 /* Assets.xcassets */; };
 		CA7D3969281AFC5D0062DAE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7D3967281AFC5D0062DAE8 /* LaunchScreen.storyboard */; };
@@ -31,6 +30,18 @@
 		CA7D39AD281B03E70062DAE8 /* people_success_response.json in Resources */ = {isa = PBXBuildFile; fileRef = CA7D39AA281B03E70062DAE8 /* people_success_response.json */; };
 		CA7D39B1281B04120062DAE8 /* RoomsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D39AF281B04120062DAE8 /* RoomsViewModelTests.swift */; };
 		CA7D39B2281B04120062DAE8 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D39B0281B04120062DAE8 /* MockNetworkManager.swift */; };
+		CA7D39B5281B07F70062DAE8 /* PeopleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D39B4281B07F70062DAE8 /* PeopleDetailsViewController.swift */; };
+		CA7D39B7281B08280062DAE8 /* PeopleDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D39B6281B08280062DAE8 /* PeopleDetailsViewModel.swift */; };
+		CA7D39B9281B085D0062DAE8 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D39B8281B085D0062DAE8 /* People.swift */; };
+		CA7D39BB281B08790062DAE8 /* PeopleResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D39BA281B08790062DAE8 /* PeopleResponce.swift */; };
+		CA7D39BD281B08A00062DAE8 /* PeoplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D39BC281B08A00062DAE8 /* PeoplesViewController.swift */; };
+		CA7D39BF281B08B90062DAE8 /* PeoplesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D39BE281B08B90062DAE8 /* PeoplesViewModel.swift */; };
+		CA7D39C1281B08D10062DAE8 /* PeopleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D39C0281B08D10062DAE8 /* PeopleTableViewCell.swift */; };
+		CA7D39C6281B09E90062DAE8 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D39C5281B09E90062DAE8 /* AppCoordinator.swift */; };
+		CA7D39C8281B0A210062DAE8 /* CoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D39C7281B0A210062DAE8 /* CoordinatorType.swift */; };
+		CA7D39CA281B0A4D0062DAE8 /* RoomsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D39C9281B0A4D0062DAE8 /* RoomsCoordinator.swift */; };
+		CA7D39CE281B0A9F0062DAE8 /* PeopleViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D39CD281B0A9F0062DAE8 /* PeopleViewModelTests.swift */; };
+		CA7D39D0281B115D0062DAE8 /* PeoplesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D39CF281B115D0062DAE8 /* PeoplesCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +65,6 @@
 		CA7D3959281AFC5A0062DAE8 /* StaffDirectory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaffDirectory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA7D395C281AFC5A0062DAE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA7D395E281AFC5A0062DAE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CA7D3960281AFC5A0062DAE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA7D3963281AFC5A0062DAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA7D3965281AFC5D0062DAE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA7D3968281AFC5D0062DAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,6 +90,18 @@
 		CA7D39AE281B04120062DAE8 /* StaffDirectoryTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StaffDirectoryTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		CA7D39AF281B04120062DAE8 /* RoomsViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsViewModelTests.swift; sourceTree = "<group>"; };
 		CA7D39B0281B04120062DAE8 /* MockNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		CA7D39B4281B07F70062DAE8 /* PeopleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailsViewController.swift; sourceTree = "<group>"; };
+		CA7D39B6281B08280062DAE8 /* PeopleDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailsViewModel.swift; sourceTree = "<group>"; };
+		CA7D39B8281B085D0062DAE8 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		CA7D39BA281B08790062DAE8 /* PeopleResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleResponce.swift; sourceTree = "<group>"; };
+		CA7D39BC281B08A00062DAE8 /* PeoplesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplesViewController.swift; sourceTree = "<group>"; };
+		CA7D39BE281B08B90062DAE8 /* PeoplesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplesViewModel.swift; sourceTree = "<group>"; };
+		CA7D39C0281B08D10062DAE8 /* PeopleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTableViewCell.swift; sourceTree = "<group>"; };
+		CA7D39C5281B09E90062DAE8 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		CA7D39C7281B0A210062DAE8 /* CoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorType.swift; sourceTree = "<group>"; };
+		CA7D39C9281B0A4D0062DAE8 /* RoomsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsCoordinator.swift; sourceTree = "<group>"; };
+		CA7D39CD281B0A9F0062DAE8 /* PeopleViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModelTests.swift; sourceTree = "<group>"; };
+		CA7D39CF281B115D0062DAE8 /* PeoplesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplesCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,11 +152,11 @@
 		CA7D395B281AFC5A0062DAE8 /* StaffDirectory */ = {
 			isa = PBXGroup;
 			children = (
+				CA7D39C4281B09CD0062DAE8 /* AppCoordinator */,
 				CA7D399A281AFF7B0062DAE8 /* NetworkApi */,
 				CA7D398C281AFCB60062DAE8 /* Modules */,
 				CA7D395C281AFC5A0062DAE8 /* AppDelegate.swift */,
 				CA7D395E281AFC5A0062DAE8 /* SceneDelegate.swift */,
-				CA7D3960281AFC5A0062DAE8 /* ViewController.swift */,
 				CA7D3962281AFC5A0062DAE8 /* Main.storyboard */,
 				CA7D3965281AFC5D0062DAE8 /* Assets.xcassets */,
 				CA7D3967281AFC5D0062DAE8 /* LaunchScreen.storyboard */,
@@ -150,6 +172,7 @@
 				CA7D39AF281B04120062DAE8 /* RoomsViewModelTests.swift */,
 				CA7D39A7281B022A0062DAE8 /* Json Responses */,
 				CA7D39AE281B04120062DAE8 /* StaffDirectoryTests-Bridging-Header.h */,
+				CA7D39CD281B0A9F0062DAE8 /* PeopleViewModelTests.swift */,
 			);
 			path = StaffDirectoryTests;
 			sourceTree = "<group>";
@@ -180,6 +203,7 @@
 				CA7D3994281AFE970062DAE8 /* RoomsTableViewCell.swift */,
 				CA7D3996281AFEED0062DAE8 /* RoomsViewModel.swift */,
 				CA7D3998281AFF490062DAE8 /* RoomsResponse.swift */,
+				CA7D39C9281B0A4D0062DAE8 /* RoomsCoordinator.swift */,
 			);
 			path = Rooms;
 			sourceTree = "<group>";
@@ -187,6 +211,13 @@
 		CA7D398F281AFD160062DAE8 /* People */ = {
 			isa = PBXGroup;
 			children = (
+				CA7D39B3281B07C60062DAE8 /* PeopleDetails */,
+				CA7D39B8281B085D0062DAE8 /* People.swift */,
+				CA7D39BA281B08790062DAE8 /* PeopleResponce.swift */,
+				CA7D39BC281B08A00062DAE8 /* PeoplesViewController.swift */,
+				CA7D39BE281B08B90062DAE8 /* PeoplesViewModel.swift */,
+				CA7D39C0281B08D10062DAE8 /* PeopleTableViewCell.swift */,
+				CA7D39CF281B115D0062DAE8 /* PeoplesCoordinator.swift */,
 			);
 			path = People;
 			sourceTree = "<group>";
@@ -212,6 +243,24 @@
 				CA7D39A9281B03E70062DAE8 /* rooms_success_response.json */,
 			);
 			path = "Json Responses";
+			sourceTree = "<group>";
+		};
+		CA7D39B3281B07C60062DAE8 /* PeopleDetails */ = {
+			isa = PBXGroup;
+			children = (
+				CA7D39B4281B07F70062DAE8 /* PeopleDetailsViewController.swift */,
+				CA7D39B6281B08280062DAE8 /* PeopleDetailsViewModel.swift */,
+			);
+			path = PeopleDetails;
+			sourceTree = "<group>";
+		};
+		CA7D39C4281B09CD0062DAE8 /* AppCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CA7D39C5281B09E90062DAE8 /* AppCoordinator.swift */,
+				CA7D39C7281B0A210062DAE8 /* CoordinatorType.swift */,
+			);
+			path = AppCoordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,19 +399,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA7D39A0281B007D0062DAE8 /* ServiceManager.swift in Sources */,
+				CA7D39BD281B08A00062DAE8 /* PeoplesViewController.swift in Sources */,
 				CA7D399E281B001E0062DAE8 /* ServiceError.swift in Sources */,
 				CA7D39A4281B01110062DAE8 /* ImageDownloader.swift in Sources */,
 				CA7D3995281AFE970062DAE8 /* RoomsTableViewCell.swift in Sources */,
-				CA7D3961281AFC5A0062DAE8 /* ViewController.swift in Sources */,
+				CA7D39BF281B08B90062DAE8 /* PeoplesViewModel.swift in Sources */,
+				CA7D39C6281B09E90062DAE8 /* AppCoordinator.swift in Sources */,
 				CA7D395D281AFC5A0062DAE8 /* AppDelegate.swift in Sources */,
+				CA7D39D0281B115D0062DAE8 /* PeoplesCoordinator.swift in Sources */,
 				CA7D3993281AFDEA0062DAE8 /* RoomsViewController.swift in Sources */,
 				CA7D39A2281B00C70062DAE8 /* EndPoint.swift in Sources */,
 				CA7D3991281AFD400062DAE8 /* Room.swift in Sources */,
 				CA7D3999281AFF490062DAE8 /* RoomsResponse.swift in Sources */,
+				CA7D39C8281B0A210062DAE8 /* CoordinatorType.swift in Sources */,
 				CA7D3997281AFEED0062DAE8 /* RoomsViewModel.swift in Sources */,
 				CA7D39A6281B015C0062DAE8 /* ImageCacher.swift in Sources */,
+				CA7D39B5281B07F70062DAE8 /* PeopleDetailsViewController.swift in Sources */,
+				CA7D39BB281B08790062DAE8 /* PeopleResponce.swift in Sources */,
 				CA7D399C281AFFC30062DAE8 /* Servicable.swift in Sources */,
+				CA7D39B7281B08280062DAE8 /* PeopleDetailsViewModel.swift in Sources */,
 				CA7D395F281AFC5A0062DAE8 /* SceneDelegate.swift in Sources */,
+				CA7D39CA281B0A4D0062DAE8 /* RoomsCoordinator.swift in Sources */,
+				CA7D39B9281B085D0062DAE8 /* People.swift in Sources */,
+				CA7D39C1281B08D10062DAE8 /* PeopleTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA7D39B2281B04120062DAE8 /* MockNetworkManager.swift in Sources */,
+				CA7D39CE281B0A9F0062DAE8 /* PeopleViewModelTests.swift in Sources */,
 				CA7D39B1281B04120062DAE8 /* RoomsViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
