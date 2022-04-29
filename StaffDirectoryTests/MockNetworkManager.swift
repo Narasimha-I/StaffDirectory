@@ -6,7 +6,7 @@
 //
 
 import Foundation
-@testable import StaffsDirectory
+@testable import StaffDirectory
 
 class MockNetworkManager: Servicable {
     func get<T>(_ baseUrl: String, path: String, type: T.Type, completionHandler: @escaping (Result<[T], ServiceError>) -> Void) where T : Decodable {

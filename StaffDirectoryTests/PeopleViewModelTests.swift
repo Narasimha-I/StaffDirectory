@@ -5,7 +5,7 @@
 //  Created by Narasimha H.G on 28/04/2022.
 //
 import XCTest
-@testable import StaffsDirectory
+@testable import StaffDirectory
 
 class PeopleViewModelTests: XCTestCase {
     
